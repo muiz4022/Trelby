@@ -27,6 +27,7 @@ class CharMapDlg(wx.Dialog):
             self.ctrl.OnKeyChar(util.MyKeyEvent(ord(self.charMap.selected)))
 
 
+
 class MyCharMap(wx.Window):
     def __init__(self, parent):
         wx.Window.__init__(self, parent, -1)
